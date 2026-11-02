@@ -5,29 +5,30 @@
 
 /* === Color Palette === */
 :root {
-  /* Primary - Deep Blue/Indigo */
-  --color-primary-50: 238 242 255;
-  --color-primary-100: 224 231 255;
-  --color-primary-200: 199 210 254;
-  --color-primary-300: 165 180 252;
-  --color-primary-400: 129 140 248;
-  --color-primary-500: 99 102 241;
-  --color-primary-600: 79 70 229;
-  --color-primary-700: 67 56 202;
-  --color-primary-800: 55 48 163;
-  --color-primary-900: 49 46 129;
+  /* NAVA primary — Muted Brass */
+  --color-primary-50: 248 247 244;
+  --color-primary-100: 240 237 231;
+  --color-primary-200: 228 222 212;
+  --color-primary-300: 216 209 198;
+  --color-primary-400: 197 184 166;
+  --color-primary-500: 166 140 104;
+  --color-primary-600: 141 118 89;
+  --color-primary-700: 115 95 72;
+  --color-primary-800: 84 72 58;
+  --color-primary-900: 56 47 40;
+  --color-primary-950: 37 41 43;
 
-  /* Accent - Teal/Cyan */
-  --color-accent-50: 236 254 255;
-  --color-accent-100: 207 250 254;
-  --color-accent-200: 165 243 252;
-  --color-accent-300: 103 232 249;
-  --color-accent-400: 34 211 238;
-  --color-accent-500: 6 182 212;
-  --color-accent-600: 8 145 178;
-  --color-accent-700: 14 116 144;
-  --color-accent-800: 21 94 117;
-  --color-accent-900: 22 78 99;
+  /* NAVA secondary — Sage Grey */
+  --color-accent-50: 242 244 242;
+  --color-accent-100: 226 231 227;
+  --color-accent-200: 205 214 207;
+  --color-accent-300: 178 191 181;
+  --color-accent-400: 143 160 147;
+  --color-accent-500: 104 115 109;
+  --color-accent-600: 87 98 91;
+  --color-accent-700: 70 80 74;
+  --color-accent-800: 52 60 55;
+  --color-accent-900: 38 45 40;
 
   /* Success - Emerald */
   --color-success-50: 236 253 245;
@@ -79,7 +80,7 @@
   --color-slate-950: 2 6 23;
 
   /* === Typography === */
-  --font-family-sans: 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-family-sans: 'Montserrat', 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   --font-family-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
   /* Font Sizes */
@@ -135,26 +136,26 @@
   --z-toast: 300;
 
   /* === Light Theme Semantic Colors === */
-  --bg-primary: var(--color-slate-50);
-  --bg-secondary: 255 255 255;
-  --bg-tertiary: var(--color-slate-100);
-  --text-primary: var(--color-slate-900);
-  --text-secondary: var(--color-slate-600);
-  --text-muted: var(--color-slate-400);
-  --border-default: var(--color-slate-200);
-  --border-subtle: var(--color-slate-100);
+  --bg-primary: 244 241 235;
+  --bg-secondary: 250 249 246;
+  --bg-tertiary: 240 237 231;
+  --text-primary: 37 41 43;
+  --text-secondary: 89 91 87;
+  --text-muted: 132 128 119;
+  --border-default: 216 209 198;
+  --border-subtle: 232 227 218;
 }
 
 /* === Dark Theme === */
 .dark {
-  --bg-primary: var(--color-slate-950);
-  --bg-secondary: var(--color-slate-900);
-  --bg-tertiary: var(--color-slate-800);
-  --text-primary: var(--color-slate-50);
-  --text-secondary: var(--color-slate-300);
-  --text-muted: var(--color-slate-500);
-  --border-default: var(--color-slate-800);
-  --border-subtle: var(--color-slate-900);
+  --bg-primary: 37 41 43;
+  --bg-secondary: 45 49 50;
+  --bg-tertiary: 57 61 61;
+  --text-primary: 244 241 235;
+  --text-secondary: 216 209 198;
+  --text-muted: 166 158 145;
+  --border-default: 75 77 74;
+  --border-subtle: 57 61 61;
 }
 
 /* === Base Styles === */
@@ -318,3 +319,8 @@ body {
 .animate-count {
   animation: count-up var(--transition-fast);
 }
+
+
+/* NAVA Hardware layer */
+:root{--nava-charcoal:#25292B;--nava-ivory:#F4F1EB;--nava-brass:#A68C68;--nava-stone:#D8D1C6;--nava-sage:#68736D;--nava-paper:#FAF9F6}
+body{background-color:#F4F1EB}.dark body{background-color:#25292B}
