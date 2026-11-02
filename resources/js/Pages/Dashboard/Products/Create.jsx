@@ -267,7 +267,7 @@ export default function Create({ categories, products, units = [] }) {
                                 <div className="md:col-span-2">
                                     <Textarea
                                         label="Deskripsi"
-                                        placeholder="Deskripsi produk (opsional)"
+                                        placeholder="Smart lock fingerprint, material aluminium alloy, black matte, pintu 40–90 mm, mortise 6068, garansi resmi 1 tahun."
                                         errors={errors.description}
                                         onChange={(e) =>
                                             setData(
@@ -278,6 +278,10 @@ export default function Create({ categories, products, units = [] }) {
                                         value={data.description}
                                         rows={3}
                                     />
+                                    <p className="mt-2 rounded-lg border border-[#D8D1C6] bg-[#F4F1EB] px-3 py-2 text-xs leading-relaxed text-[#68736D] dark:border-[#4B4D4A] dark:bg-[#393D3D] dark:text-[#C5B8A6]">
+                                        <span className="font-bold tracking-wide text-[#735F48] dark:text-[#C5B8A6]">FORMAT SPESIFIKASI NAVA</span><br />
+                                        Merek / Model · Material · Finishing · Backset / PCD · Ketebalan pintu · Tipe mortise · Metode akses · Kompatibilitas · Isi paket · Garansi.
+                                    </p>
                                 </div>
                             </div>
                         </div>

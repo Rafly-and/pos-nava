@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="theme-color" content="#4f46e5">
-    <meta name="description" content="Dikasir — sistem kasir (POS) open source untuk UMKM Indonesia. Multi-warehouse, PPN, loyalty & CRM, WhatsApp gateway, offline mode. Gratis, GNU AGPL-3.0.">
-    <meta property="og:site_name" content="Dikasir">
-    <meta property="og:title" content="Dikasir — Sistem Kasir Open Source untuk UMKM">
-    <meta property="og:description" content="POS gratis & open source: multi-warehouse, PPN, loyalty & CRM, WhatsApp gateway, offline mode. Laravel 13 + React 19.">
+    <meta name="theme-color" content="#25292B">
+    <meta name="description" content="NAVA Hardware — internal point of sale untuk architectural hardware dan smart home.">
+    <meta property="og:site_name" content="NAVA Hardware">
+    <meta property="og:title" content="NAVA Hardware POS">
+    <meta property="og:description" content="NAVA Hardware — Architectural Hardware & Smart Home sales management.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ config('app.url') }}/">
     <meta property="og:image" content="{{ config('app.url') }}/images/og-image.png">
@@ -26,7 +26,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
 
     <!-- Scripts -->

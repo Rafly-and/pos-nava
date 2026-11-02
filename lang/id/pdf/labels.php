@@ -27,7 +27,7 @@ return [
         'change' => 'Kembalian',
         'note' => 'Catatan',
         'thank_you' => 'Terima kasih!',
-        'thank_you_message' => 'Terima kasih atas kepercayaan Anda.',
+        'thank_you_message' => 'Terima kasih telah mempercayakan kebutuhan architectural hardware dan smart home kepada NAVA.',
         'phone' => 'Telp',
         'email' => 'Email',
         'address' => 'Alamat',
@@ -39,13 +39,13 @@ return [
     |--------------------------------------------------------------------------
     */
     'invoice' => [
-        'title' => 'INVOICE',
+        'title' => 'INVOICE PENJUALAN',
         'invoice_number' => 'No. Invoice',
         'invoice_date' => 'Tanggal Invoice',
         'due_date' => 'Jatuh Tempo',
         'payment_status' => 'Status Pembayaran',
         'payment_method' => 'Metode Pembayaran',
-        'product_name' => 'Nama Produk',
+        'product_name' => 'Produk / Deskripsi',
         'quantity' => 'Qty',
         'unit_price' => 'Harga Satuan',
         'subtotal_col' => 'Subtotal',

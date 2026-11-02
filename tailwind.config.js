@@ -14,6 +14,7 @@ export default {
         extend: {
             fontFamily: {
                 sans: [
+                    "Montserrat",
                     "Inter",
                     "Plus Jakarta Sans",
                     ...defaultTheme.fontFamily.sans,
@@ -25,33 +26,19 @@ export default {
                 ],
             },
             colors: {
-                // Primary - Indigo
+                // NAVA Hardware — Muted Brass
                 primary: {
-                    50: "#eef2ff",
-                    100: "#e0e7ff",
-                    200: "#c7d2fe",
-                    300: "#a5b4fc",
-                    400: "#818cf8",
-                    500: "#6366f1",
-                    600: "#4f46e5",
-                    700: "#4338ca",
-                    800: "#3730a3",
-                    900: "#312e81",
-                    950: "#1e1b4b",
+                    50: "#F8F7F4", 100: "#F0EDE7", 200: "#E4DED4",
+                    300: "#D8D1C6", 400: "#C5B8A6", 500: "#A68C68",
+                    600: "#8D7659", 700: "#735F48", 800: "#54483A",
+                    900: "#382F28", 950: "#25292B",
                 },
-                // Accent - Cyan
+                // NAVA secondary — Sage Grey
                 accent: {
-                    50: "#ecfeff",
-                    100: "#cffafe",
-                    200: "#a5f3fc",
-                    300: "#67e8f9",
-                    400: "#22d3ee",
-                    500: "#06b6d4",
-                    600: "#0891b2",
-                    700: "#0e7490",
-                    800: "#155e75",
-                    900: "#164e63",
-                    950: "#083344",
+                    50: "#F2F4F2", 100: "#E2E7E3", 200: "#CDD6CF",
+                    300: "#B2BFB5", 400: "#8FA093", 500: "#68736D",
+                    600: "#57625B", 700: "#46504A", 800: "#343C37",
+                    900: "#262D28", 950: "#1B211D",
                 },
                 // Success - Emerald
                 success: {
@@ -115,8 +102,8 @@ export default {
                 "4xl": "2rem",
             },
             boxShadow: {
-                glow: "0 0 20px rgba(99, 102, 241, 0.3)",
-                "glow-lg": "0 0 40px rgba(99, 102, 241, 0.4)",
+                glow: "0 0 20px rgba(166, 140, 104, 0.20)",
+                "glow-lg": "0 0 40px rgba(166, 140, 104, 0.28)",
                 "inner-lg": "inset 0 4px 6px -1px rgb(0 0 0 / 0.1)",
             },
             animation: {

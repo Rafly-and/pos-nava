@@ -20,7 +20,7 @@ export default function Navbar({ toggleSidebar, themeSwitcher, darkMode }) {
     const { start: startTour, isActive: tourActive } = useTour("dashboard");
     const menuNavigation = Menu();
 
-    const storeName = storeProfile?.name || "KASIR";
+    const storeName = storeProfile?.name || "NAVA Hardware";
     const storeInitial = storeName?.charAt(0)?.toUpperCase() || "K";
 
     // Get current page title
@@ -53,8 +53,8 @@ export default function Navbar({ toggleSidebar, themeSwitcher, darkMode }) {
     return (
         <header
             className="sticky top-0 z-30 h-16 flex items-center justify-between px-4 md:px-6
-            bg-white dark:bg-slate-900
-            border-b border-slate-200 dark:border-slate-800
+            bg-[#FAF9F6] dark:bg-[#2D3132]
+            border-b border-[#E4DED4] dark:border-[#4B4D4A]
             transition-colors duration-200"
         >
             {/* Left Section */}
@@ -70,10 +70,10 @@ export default function Navbar({ toggleSidebar, themeSwitcher, darkMode }) {
 
                 {/* Mobile Logo */}
                 <div className="md:hidden flex items-center gap-2">
-                    <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-primary-500 to-primary-700 flex items-center justify-center">
-                        <span className="text-white font-bold text-xs">{storeInitial}</span>
+                    <div className="w-7 h-7 rounded-md bg-[#25292B] flex items-center justify-center">
+                        <span className="text-[#A68C68] font-extrabold text-xs">N.</span>
                     </div>
-                    <span className="text-lg font-bold text-slate-800 dark:text-white">
+                    <span className="text-sm font-extrabold tracking-[0.12em] text-[#25292B] dark:text-[#F4F1EB]">
                         {storeName}
                     </span>
                 </div>
