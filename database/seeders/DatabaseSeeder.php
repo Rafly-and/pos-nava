@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Category;
 use App\Models\Outlet;
 use App\Models\Setting;
 use App\Models\Warehouse;
@@ -25,6 +26,26 @@ class DatabaseSeeder extends Seeder
         app(PermissionRegistrar::class)->forgetCachedPermissions();
 
         $this->seedDefaultWarehouse();
+        $this->seedNavaCategories();
+    }
+
+
+    private function seedNavaCategories(): void
+    {
+        $categories = [
+            ['name' => 'Smart Locks & Electronic Locks', 'description' => 'Smart door locks, fingerprint locks, digital locks, keypad locks, RFID and connected access systems.'],
+            ['name' => 'Door Handles & Knobs', 'description' => 'Premium lever handles, pull handles, knobs and architectural door furniture.'],
+            ['name' => 'Door Locks & Locksets', 'description' => 'Mechanical locks, mortise locks, cylinder locks, deadbolts and locksets.'],
+            ['name' => 'Architectural Accessories', 'description' => 'Hinges, door stoppers, flush bolts, door closers and installation accessories.'],
+            ['name' => 'Smart Home & Security', 'description' => 'Smart sensors, gateways, access control and home security devices.'],
+        ];
+
+        foreach ($categories as $category) {
+            Category::firstOrCreate(['name' => $category['name']], [
+                'image' => null,
+                'description' => $category['description'],
+            ]);
+        }
     }
 
     private function seedDefaultWarehouse(): void
